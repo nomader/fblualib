@@ -24,7 +24,7 @@ fi
 
 issue=$(cat /etc/issue)
 extra_packages=
-current=0
+current=1
 if [[ $issue =~ ^Ubuntu\ 13\.10 ]]; then
     :
 elif [[ $issue =~ ^Ubuntu\ 14 ]]; then
